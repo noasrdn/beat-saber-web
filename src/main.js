@@ -3,7 +3,6 @@ import { Saber } from './Entities/Saber.js';
 import { GameLogic } from './Systems/GameLogic.js';
 import { AudioHandler } from './Systems/AudioHandler.js';
 import { MapLoader } from './Systems/MapLoader.js';
-import { Cube } from './Entities/Cube.js';
 
 
 const engine = new Engine();
