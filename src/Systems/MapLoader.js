@@ -5,11 +5,16 @@ export class MapLoader {
         this.isLoaded = false;
     }
 
-    async load(url) {
+   async load(url) {
+    try {
         const response = await fetch(url);
         this.levelData = await response.json();
         this.isLoaded = true;
+        console.log("Niveau chargé avec succès :", this.levelData.notes.length, "notes trouvées.");
+    } catch (e) {
+        console.error("Erreur de chargement du JSON :", e);
     }
+}
 
     update(currentTime) {
         if (!this.isLoaded) return;
