@@ -1,0 +1,9 @@
+{
+    "bpm": 120,
+    "notes": [
+        { "time": 1.0, "lane": 0, "layer": 1, "type": 0 },
+        { "time": 2.0, "lane": 3, "layer": 1, "type": 1 },
+        { "time": 2.5, "lane": 1, "layer": 0, "type": 0 },
+        { "time": 3.0, "lane": 2, "layer": 2, "type": 1 }
+    ]
+}
